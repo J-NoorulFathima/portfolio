@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeltria Vision | High-End Creative Agency</title>
+
+<style>
+:root {
+  --bg: #0f1115;
+  --card: #161a22;
+  --gold: #c6a96b;
+  --blue: #4f8cff;
+  --text: #e8ecf1;
+  --muted: #9aa4b2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #0f1115, #111827);
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--gold);
+  letter-spacing: 3px;
+}
+
+.hero p {
+  margin-top: 20px;
+  color: var(--muted);
+}
+
+.hero span {
+  margin-top: 10px;
+  display: block;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* SECTIONS */
+section {
+  padding: 100px 10%;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  border-left: 4px solid var(--gold);
+  padding-left: 15px;
+  color: var(--text);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 14px;
+  transition: 0.4s ease;
+  border: 1px solid #1f2630;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--gold);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  border-top: 1px solid #1f2630;
+  color: var(--muted);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>ZELTRIA_VISION</h1>
+  <p>High-End Creative Agency Portfolio</p>
+  <span>Founded by Noorul Fathima J</span>
+</div>
+
+<!-- NICHE 1 -->
+<section>
+  <h2 class="section-title">Brand Strategy & Identity</h2>
+  <div class="grid">
+    <div class="card"><h3>Luxury Brand Identity</h3><p>Strategic positioning & premium visual systems.</p></div>
+    <div class="card"><h3>Logo Architecture</h3><p>Minimal timeless brand marks.</p></div>
+    <div class="card"><h3>Corporate Rebranding</h3><p>Modern transformation strategy.</p></div>
+    <div class="card"><h3>Brand Guidelines</h3><p>Comprehensive design systems.</p></div>
+    <div class="card"><h3>Visual Direction</h3><p>Creative direction for luxury brands.</p></div>
+    <div class="card"><h3>Market Positioning</h3><p>Competitive strategic analysis.</p></div>
+  </div>
+</section>
+
+<!-- NICHE 2 -->
+<section>
+  <h2 class="section-title">Cinematic Video Production</h2>
+  <div class="grid">
+    <div class="card"><h3>Luxury Product Film</h3><p>Premium storytelling & visuals.</p></div>
+    <div class="card"><h3>Instagram Reel Campaign</h3><p>High-conversion vertical edits.</p></div>
+    <div class="card"><h3>Brand Documentary</h3><p>Emotional narrative production.</p></div>
+    <div class="card"><h3>Ad Film Editing</h3><p>Professional color grading.</p></div>
+    <div class="card"><h3>Motion Graphics</h3><p>Elegant brand animations.</p></div>
+    <div class="card"><h3>Commercial Production</h3><p>Full-scale video service.</p></div>
+  </div>
+</section>
+
+<!-- NICHE 3 -->
+<section>
+  <h2 class="section-title">UI/UX & Web Design</h2>
+  <div class="grid">
+    <div class="card"><h3>Agency Website</h3><p>Responsive premium web design.</p></div>
+    <div class="card"><h3>E-Commerce Platform</h3><p>Conversion-driven experience.</p></div>
+    <div class="card"><h3>Portfolio Website</h3><p>High-end visual presentation.</p></div>
+    <div class="card"><h3>Landing Page</h3><p>Performance-focused layout.</p></div>
+    <div class="card"><h3>Mobile App UI</h3><p>Clean mobile interface.</p></div>
+    <div class="card"><h3>SaaS Dashboard</h3><p>Elegant data system design.</p></div>
+  </div>
+</section>
+
+<!-- NICHE 4 -->
+<section>
+  <h2 class="section-title">Creative Direction</h2>
+  <div class="grid">
+    <div class="card"><h3>Luxury Photoshoot</h3><p>High-end visual campaign concept.</p></div>
+    <div class="card"><h3>Ad Campaign Strategy</h3><p>Concept to execution leadership.</p></div>
+    <div class="card"><h3>Social Media Aesthetic</h3><p>Premium brand grid styling.</p></div>
+    <div class="card"><h3>Product Launch</h3><p>Integrated campaign planning.</p></div>
+    <div class="card"><h3>Event Branding</h3><p>Story-driven event visuals.</p></div>
+    <div class="card"><h3>Moodboard Design</h3><p>Conceptual brand environments.</p></div>
+  </div>
+</section>
+
+<!-- NICHE 5 -->
+<section>
+  <h2 class="section-title">Digital Growth & Marketing</h2>
+  <div class="grid">
+    <div class="card"><h3>Performance Campaign</h3><p>ROI-focused paid ads strategy.</p></div>
+    <div class="card"><h3>SEO Strategy</h3><p>Organic traffic scaling.</p></div>
+    <div class="card"><h3>Content Strategy</h3><p>Authority-based positioning.</p></div>
+    <div class="card"><h3>Email Funnel</h3><p>Conversion automation flow.</p></div>
+    <div class="card"><h3>LinkedIn Branding</h3><p>Professional positioning.</p></div>
+    <div class="card"><h3>Analytics Optimization</h3><p>Data-driven growth scaling.</p></div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Zeltria_Vision — Crafted by Noorul Fathima J
+</footer>
+
+</body>
+</html>
